@@ -1,0 +1,7 @@
+*.png
+!figs/*.png
+tmp/
+.venv
+*/*.egg-info
+*.pyc
+__pycache__

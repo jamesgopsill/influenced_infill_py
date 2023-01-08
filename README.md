@@ -5,7 +5,7 @@
 To use this package, you will need to [Slic3r](https://slic3r.org/) installed on your computer and Python 3. Once installed, you can add the package using:
 
 ```
-pip install git+https://github.com/jamesgopsill/influenced_infill_generator.git#egg=gtr
+pip install git+https://github.com/jamesgopsill/influenced_infill_py
 ```
 
 Then download and use the examples folder to see how to set up and run the code.

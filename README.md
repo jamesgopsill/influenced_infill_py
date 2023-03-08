@@ -2,13 +2,52 @@
 
 ## Installation
 
-To use this package, you will need to [Slic3r](https://slic3r.org/) installed on your computer and Python 3. Once installed, you can add the package using:
+To use this package, you will need to [Slic3r](https://slic3r.org/) installed on your computer and Python 3. Once installed create a folder for your study and `cd` into it and create a virtual environment.
+
+```
+python -m venv .venv
+```
+
+Activate the environment.
+
+```
+source .venv/bin/activate
+```
+
+Install the package using:
 
 ```
 pip install git+https://github.com/jamesgopsill/influenced_infill_py
 ```
 
-Then download and use the examples folder to see how to set up and run the code.
+Download and the examples folder and copy the contents into your folder. Your folder should now contain:
+
+```
+.venv
+data/
+example_01.py
+```
+
+Now run:
+
+```
+python example_01.py
+```
+
+The terminal should report a lot of information regarding the steps taken and at the end your folder should contain:
+
+```
+.venv
+data/
+example_01.py
+extracted_infill.png
+griddata.png
+influenced_infill_print_paths.png
+network.png
+weighted_network.png
+```
+
+The images should look like the example plots below.
 
 ## Related Papers / Articles
 
@@ -19,8 +58,8 @@ Then download and use the examples folder to see how to set up and run the code.
 
 ## Example plots
 
-![](figs/extracted_infill.png)
-![](figs/griddata.png)
-![](figs/network.png)
-![](figs/weighted_network.png)
-![](figs/influenced_infill_print_paths.png)
+<img src="figs/extracted_infill.png" width="49%" />
+<img src="figs/griddata.png" width="49%" />
+<img src="figs/network.png" width="49%" />
+<img src="figs/weighted_network.png" width="49%" />
+<img src="figs/influenced_infill_print_paths.png" width="49%" />
